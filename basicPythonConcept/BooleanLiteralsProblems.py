@@ -40,5 +40,19 @@ print("(x) value in boolean", x <= 40 )
 
 result = x > 40
 print(type(result), "and result value in boolean" ,result)
-
 print('============= Q3 output Above ===============')
+
+# --Q4-->  Boolean operators: and, or, not
+# Combine conditions using logical operators Concept include(and , or, not)
+a = True
+b = False
+print(a and b)
+print(a or b)
+print(not a)
+print(not b)
+print('---Logic to check if age is less than or equal to 21---')
+age = 20
+has_id = True
+print(age <= 21 and has_id)
+
+print('============= Q4 output Above ===============')
