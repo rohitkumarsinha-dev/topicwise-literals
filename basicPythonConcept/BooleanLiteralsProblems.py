@@ -96,3 +96,24 @@ result2 = check_bNewValue() or check_aNewValue()
 print("Result2:", result2)
 
 print('============= Q6 output IS Above ===============')
+
+
+# --Q7 -->  Real-world: login validator
+# Combine all concepts in a practical scenario
+
+userName = "rohit"
+password = "secure123"
+is_active = True
+
+input_user ="rohit"
+input_password = "secur@2e123"
+
+user_match = (input_user == userName)
+password_match = (input_password == password)
+login_ok = user_match and password_match and is_active
+print("Login ok:", login_ok)
+
+if login_ok:
+    print("welcome:-" ,userName)
+else:
+    print("Entered Wrong Credentials" )
