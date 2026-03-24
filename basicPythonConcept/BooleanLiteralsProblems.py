@@ -27,3 +27,18 @@ print(bool(None))
 
 print('============= Q2 output Above ===============')
 
+#-Q3--->Comparison operators return bool
+# ---> ==, !=, >, < all evaluate to True or False
+
+x = 36
+print("(x) value in boolean", x > 12,)
+print("(x) value in boolean", x < 30)
+print("(x) value in boolean", x != 10 )
+print("(x) value in boolean", x == x )
+print("(x) value in boolean", x >= 37)
+print("(x) value in boolean", x <= 40 )
+
+result = x > 40
+print(type(result), "and result value in boolean" ,result)
+
+print('============= Q3 output Above ===============')
