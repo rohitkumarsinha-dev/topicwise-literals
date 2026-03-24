@@ -74,3 +74,25 @@ print(sum(votes))
 # In Python, bool is a subtype of int.
 # This lets you use sum() to count True values in a list — a common real-world trick.
 print('============= Q5 output Above ===============')
+
+# Q6 -Short-circuit evaluation
+# Python stops evaluating as soon as result is known (This concept Include - short-circuit and efficiency)
+
+def check_aNewValue():
+    print("check_a() ran")
+    return  False
+
+def check_bNewValue():
+    print("check_b() ran")
+    return True
+
+# 'and' stops at first False
+result = check_aNewValue() and check_bNewValue()
+print("Result:", result)
+
+print('-------------')
+# 'or' stops at first True
+result2 = check_bNewValue() or check_aNewValue()
+print("Result2:", result2)
+
+print('============= Q6 output IS Above ===============')
