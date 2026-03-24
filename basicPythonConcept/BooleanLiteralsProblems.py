@@ -56,3 +56,21 @@ has_id = True
 print(age <= 21 and has_id)
 
 print('============= Q4 output Above ===============')
+
+#Q5 - bool is a subclass of int
+# --> True == 1 and False == 0 in Python Concept Include(bool + int and arithmetic)
+# example1 -
+print(True == 1) # True
+print(False == 0) # True - boolean False showcase '0' so this is why it is true.
+print(True + True) # 2
+print(True - False) # 1
+print(False - False) # 0
+print(True * 5) # 5
+print(False * 100) # 0
+
+# example2 -
+votes = [True, False , False, True, False]
+print(sum(votes))
+# In Python, bool is a subtype of int.
+# This lets you use sum() to count True values in a list — a common real-world trick.
+print('============= Q5 output Above ===============')
