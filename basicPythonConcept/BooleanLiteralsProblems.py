@@ -106,7 +106,7 @@ password = "secure123"
 is_active = True
 
 input_user ="rohit"
-input_password = "secur@2e123"
+input_password = "secure123"
 
 user_match = (input_user == userName)
 password_match = (input_password == password)
