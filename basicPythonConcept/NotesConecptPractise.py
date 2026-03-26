@@ -114,7 +114,7 @@ print("======<Calculate the Surface area of Cuboid.>======",)
 
 l = 28
 b = 12
-h = 34
+h = 34.233
 
 areaTotalSufaceOfCuboid= 2*(l * b + b * h + l * h)
 
