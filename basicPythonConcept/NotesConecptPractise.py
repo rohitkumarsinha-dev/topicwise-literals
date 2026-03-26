@@ -92,4 +92,15 @@ givenKilometers = 15
 miles = givenKilometers * 0.621
 print("Miles:-",miles)
 
+print ("-------------------------")
 
+print("======<Calculate the Displacement.>======",)
+# "Problem Statement - d =  ( v * v  -  u * u ) / (2 * a)
+# Write a Python program to calculate the displacement (d) of an object using the second equation of motion:"
+import math
+u = 4
+v = 9
+a = 2
+
+getDisplacement = (math.pow(v, 2) - math.pow(u,2)/(2 * a))
+print("Displacement is : ", getDisplacement)
