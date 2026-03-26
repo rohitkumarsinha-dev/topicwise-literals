@@ -82,4 +82,14 @@ r = 10
 areaOfCircle = math.pi * math.pow(r, 2)
 print(areaOfCircle)
 
+print ("-------------------------")
+
+print("======<Kilometers to Miles>======",)
+# "Write a Python program that converts a distance given in kilometers to miles.
+# Display the result in a formatted output."
+
+givenKilometers = 15
+miles = givenKilometers * 0.621
+print("Miles:-",miles)
+
 
