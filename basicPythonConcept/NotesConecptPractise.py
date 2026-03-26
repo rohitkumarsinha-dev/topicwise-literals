@@ -119,3 +119,17 @@ h = 34.233
 areaTotalSufaceOfCuboid= 2*(l * b + b * h + l * h)
 
 print("TotalSuface of Cuboid:",areaTotalSufaceOfCuboid)
+
+print ("-------------------------")
+
+print("======<Quadratic Equation.>======",)
+# "Problem Statement :- Complete the code to find and print the roots of the quadratic equation:"
+
+import math
+a = 6
+b = 9
+c = 34
+root1 = (-b + math.sqrt(b ** 2 - 4 * a * c))/(2 * a)
+root2 = (-b - math.sqrt(b ** 2 - 4 * a * c))/(2 * a)
+
+print("root1:-", root1 and "root2:-" , root2)
