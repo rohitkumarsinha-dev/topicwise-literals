@@ -104,3 +104,18 @@ a = 2
 
 getDisplacement = (math.pow(v, 2) - math.pow(u,2)/(2 * a))
 print("Displacement is : ", getDisplacement)
+
+print ("-------------------------")
+
+print("======<Calculate the Surface area of Cuboid.>======",)
+# "Problem Statement :- Write a Python program to compute the total surface area of a cuboid. Use pre-defined values
+# for length, breadth, and height, then calculate the surface area .
+#  Formula: Total Surface Area = 2 * (length * breadth + length * height + breadth * height)
+
+l = 28
+b = 12
+h = 34
+
+areaTotalSufaceOfCuboid= 2*(l * b + b * h + l * h)
+
+print("TotalSuface of Cuboid:",areaTotalSufaceOfCuboid)
