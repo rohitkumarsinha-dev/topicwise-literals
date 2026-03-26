@@ -1,4 +1,6 @@
 
+
+
 z = 15 + 9.5j
 print (z)
 print(type(z))
@@ -70,3 +72,14 @@ print(c,type(c))
 name1 = 'Alexander'
 name2 = "ROHIT"
 print(name1,type(name1) , name2,type(name2))
+
+
+print("======<Area of a Circle>======",)
+# "Problem Statement Write a Python program to calculate the area of a circle using its given radius.
+# Use the math.pi constant to ensure accuracy in the formula for the area of a circle."
+import math
+r = 10
+areaOfCircle = math.pi * math.pow(r, 2)
+print(areaOfCircle)
+
+
